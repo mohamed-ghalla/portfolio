@@ -174,3 +174,26 @@
 .view-btn:hover, .code-btn:hover {
   transform: translateY(-2px);
 }
+
+
+/* Add to the end of projects.css */
+.demo-btn {
+  flex: 1;
+  padding: 0.5rem;
+  border: 2px solid #667eea;
+  background: transparent;
+  color: #667eea;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.demo-btn:hover {
+  background: #667eea;
+  color: white;
+  transform: translateY(-2px);
+}
