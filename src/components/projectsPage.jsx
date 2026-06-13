@@ -18,7 +18,7 @@ const ProjectsPage = ({ onViewProject }) => {
         "Automated leave approval workflow",
         "Real-time attendance tracking"
       ],
-      image: "https://via.placeholder.com/400x250/667eea/white?text=ERP+HR+Module",
+      image: "/src/assets/projects/AAMCO_ERP/ERP.png",
       demoUrl: "#",
       githubUrl: "#",
       detailedInfo: {
@@ -26,9 +26,17 @@ const ProjectsPage = ({ onViewProject }) => {
         solution: "Developed a comprehensive ERP HR module that automates all HR processes, provides real-time tracking, and eliminates manual paperwork.",
         results: "70% reduction in HR processing time, 100% accurate attendance tracking, and improved employee satisfaction.",
         screenshots: [
-          "https://via.placeholder.com/800x500/667eea/white?text=ERP+HR+Module+-+Dashboard",
-          "https://via.placeholder.com/800x500/764ba2/white?text=ERP+HR+Module+-+Attendance",
-          "https://via.placeholder.com/800x500/667eea/white?text=ERP+HR+Module+-+Vacation"
+		"/src/assets/projects/AAMCO_ERP/erp_1.png",
+		"/src/assets/projects/AAMCO_ERP/erp_2.png",
+		"/src/assets/projects/AAMCO_ERP/erp_3.png",
+		"/src/assets/projects/AAMCO_ERP/erp_4.png",
+		"/src/assets/projects/AAMCO_ERP/erp_5.png",
+		"/src/assets/projects/AAMCO_ERP/erp_6.png",
+		"/src/assets/projects/AAMCO_ERP/erp_7.png",
+		"/src/assets/projects/AAMCO_ERP/erp_8.png",
+		"/src/assets/projects/AAMCO_ERP/erp_9.png",
+		"/src/assets/projects/AAMCO_ERP/erp_10.png",
+		"/src/assets/projects/AAMCO_ERP/erp_11.png",
         ]
       }
     },
@@ -71,7 +79,7 @@ const ProjectsPage = ({ onViewProject }) => {
         "SEO optimized for Islamic content",
         "Fast loading with Nginx caching"
       ],
-      image: "https://www.abdulkarim-sharafi.com/og-image.jpg",
+      image: "/src/assets/projects/sharafi/sheikh.jpg",
       demoUrl: "https://www.abdulkarim-sharafi.com",
       githubUrl: "#",
       detailedInfo: {
@@ -79,10 +87,11 @@ const ProjectsPage = ({ onViewProject }) => {
         solution: "Built a headless CMS using Strapi for content management, React for the frontend, PostgreSQL for data persistence, and Nginx as a reverse proxy and cache server.",
         results: "Successfully deployed website with 95+ Lighthouse score, fast page loads, and easy content management for non-technical users.",
         screenshots: [
-          "../assets/projects/sharafi/sharafi_1.png",
-          "../assets/projects/sharafi/sharafi_2.png",
-          "../assets/projects/sharafi/sharafi_3.png",
-          "../assets/projects/sharafi/sharafi_4.png"
+          "/src/assets/projects/sharafi/sharafi_1.png",
+          "/src/assets/projects/sharafi/sharafi_2.png",
+          "/src/assets/projects/sharafi/sharafi_3.png",
+          "/src/assets/projects/sharafi/sharafi_4.png",
+          "/src/assets/projects/sharafi/sharafi_5.png"
         ]
       }
     }
