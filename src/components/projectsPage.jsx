@@ -26,17 +26,17 @@ const ProjectsPage = ({ onViewProject }) => {
         solution: "Developed a comprehensive ERP HR module that automates all HR processes, provides real-time tracking, and eliminates manual paperwork.",
         results: "70% reduction in HR processing time, 100% accurate attendance tracking, and improved employee satisfaction.",
         screenshots: [
-		"/src/assets/projects/AAMCO_ERP/erp_1.png",
-		"/src/assets/projects/AAMCO_ERP/erp_2.png",
-		"/src/assets/projects/AAMCO_ERP/erp_3.png",
-		"/src/assets/projects/AAMCO_ERP/erp_4.png",
-		"/src/assets/projects/AAMCO_ERP/erp_5.png",
-		"/src/assets/projects/AAMCO_ERP/erp_6.png",
-		"/src/assets/projects/AAMCO_ERP/erp_7.png",
-		"/src/assets/projects/AAMCO_ERP/erp_8.png",
-		"/src/assets/projects/AAMCO_ERP/erp_9.png",
-		"/src/assets/projects/AAMCO_ERP/erp_10.png",
-		"/src/assets/projects/AAMCO_ERP/erp_11.png",
+          "/src/assets/projects/AAMCO_ERP/erp_1.png",
+          "/src/assets/projects/AAMCO_ERP/erp_2.png",
+          "/src/assets/projects/AAMCO_ERP/erp_3.png",
+          "/src/assets/projects/AAMCO_ERP/erp_4.png",
+          "/src/assets/projects/AAMCO_ERP/erp_5.png",
+          "/src/assets/projects/AAMCO_ERP/erp_6.png",
+          "/src/assets/projects/AAMCO_ERP/erp_7.png",
+          "/src/assets/projects/AAMCO_ERP/erp_8.png",
+          "/src/assets/projects/AAMCO_ERP/erp_9.png",
+          "/src/assets/projects/AAMCO_ERP/erp_10.png",
+          "/src/assets/projects/AAMCO_ERP/erp_11.png",
         ]
       }
     },
@@ -92,6 +92,34 @@ const ProjectsPage = ({ onViewProject }) => {
           "/src/assets/projects/sharafi/sharafi_3.png",
           "/src/assets/projects/sharafi/sharafi_4.png",
           "/src/assets/projects/sharafi/sharafi_5.png"
+        ]
+      }
+    },
+    {
+      id: 4,
+      title: "ITCust UG - Bilingual Corporate Website",
+      category: "web",
+      type: "Website",
+      description: "Modern bilingual corporate website for ITCust UG, a German IT consulting company. Features full English/German language support with integrated email contact system using the company's own email server.",
+      technologies: ["React", "i18n", "CSS3", "EmailJS/SMTP", "Responsive Design"],
+      highlights: [
+        "Full bilingual support (English & German)",
+        "Custom email contact form using company's email server",
+        "SEO optimized for both languages",
+        "Responsive design for all devices",
+        "Fast loading and optimized performance"
+      ],
+      image: "/src/assets/projects/itcust/ITCust_Logo.png",
+      demoUrl: "https://itcust.com",
+      githubUrl: "#",
+      detailedInfo: {
+        challenge: "ITCust UG needed a professional bilingual website that represents their German IT consulting services, with seamless language switching and reliable contact functionality using their own email infrastructure.",
+        solution: "Developed a React-based website with i18n for internationalization, enabling seamless English/German language switching. Integrated custom email contact form that connects directly to the company's email server for secure and reliable message delivery.",
+        results: "Successfully launched bilingual website with active domains (itcust.com and itcust.de). Achieved seamless language switching, reliable contact form functionality, and positive client feedback on user experience.",
+        screenshots: [
+          "https://itcust.com/static/media/hero.8f5e3a2c.jpg",
+          "https://itcust.com/static/media/services.7d4e5f1a.jpg",
+          "https://itcust.com/static/media/contact.2c8f9e6b.jpg"
         ]
       }
     }
