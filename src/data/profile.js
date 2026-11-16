@@ -6,6 +6,8 @@ export const profile = {
   location: 'Jubail, Saudi Arabia',
   email: 'mohamed.ghala@gmail.com',
   phone: '+966 54 587 5633',
+  website: 'https://mohamed.ghalla.info',
+  websiteLabel: 'mohamed.ghalla.info',
   linkedin: 'https://linkedin.com/in/mohamed-ghalla-7394bb58/',
   linkedinLabel: 'linkedin.com/in/mohamed-ghalla-7394bb58',
   availability: 'Open to full-time and contract roles (on-site in KSA or remote)',

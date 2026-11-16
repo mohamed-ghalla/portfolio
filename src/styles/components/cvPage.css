@@ -59,6 +59,7 @@
 }
 
 .cv-contact { margin: 0; font-size: 9.5pt; }
+.cv-contact span, .cv-contact a { white-space: nowrap; }
 
 .cv-paper section { margin-top: 14px; }
 
@@ -115,5 +116,8 @@
   .cv-page { padding: 0 !important; max-width: none; }
   .cv-paper { box-shadow: none; padding: 0; border-radius: 0; font-size: 10pt; line-height: 1.38; }
   .cv-paper section { margin-top: 11px; }
-  .cv-paper li { margin-bottom: 2px; }
+  .cv-paper li { margin-bottom: 2px; break-inside: avoid; }
+  /* Let long jobs flow across pages instead of leaving a gap; keep the heading with its first lines. */
+  .cv-job { break-inside: auto; }
+  .cv-job-head, .cv-company { break-after: avoid; }
 }

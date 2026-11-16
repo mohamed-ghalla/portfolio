@@ -19,7 +19,9 @@ const CVPage = () => (
         <h1>{profile.name}</h1>
         <p className="cv-title">{profile.title}</p>
         <p className="cv-contact">
-          {profile.location} | {profile.phone} | <a href={`mailto:${profile.email}`}>{profile.email}</a> | <a href={profile.linkedin}>{profile.linkedinLabel}</a>
+          <span>{profile.location}</span> | <span>{profile.phone}</span> | <a href={`mailto:${profile.email}`}>{profile.email}</a> | <a href={profile.website}>{profile.websiteLabel}</a>
+          <br />
+          <a href={profile.linkedin}>{profile.linkedinLabel}</a>
         </p>
       </header>
 
